@@ -1,4 +1,25 @@
-## 1. Introduction
+## Meteorsys
+
+<svg xmlns="http://www.w3.org/2000/svg" width="99" height="20">
+    <linearGradient id="b" x2="0" y2="100%">
+        <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+        <stop offset="1" stop-opacity=".1"/>
+    </linearGradient>
+    <mask id="a">
+        <rect width="99" height="20" rx="3" fill="#fff"/>
+    </mask>
+    <g mask="url(#a)">
+        <path fill="#555" d="M0 0h63v20H0z"/>
+        <path fill="#4c1" d="M63 0h36v20H63z"/>
+        <path fill="url(#b)" d="M0 0h99v20H0z"/>
+    </g>
+    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
+        <text x="31.5" y="15" fill="#010101" fill-opacity=".3">coverage</text>
+        <text x="31.5" y="14">coverage</text>
+        <text x="80" y="15" fill="#010101" fill-opacity=".3">98%</text>
+        <text x="80" y="14">98%</text>
+    </g>
+</svg>
 
 Meteorsys is the ultimate solution for automating tasks related to Responsys emails. 
 
@@ -21,7 +42,7 @@ The script also allows the developer to scan the contents of a Responsys folder 
 Let’s suppose you want to fetch all the modules which uses the keyword `SOMEVARIABLE`. This option allows you to do that.
 
 
-## 2. How to Use It
+## How to Use It
 
 1. Provide your Responsys username and password in the `.env` file provided.
 
@@ -35,7 +56,7 @@ You are good to go now! Just run the script:
 
     python meteorsys.py
 
-### Switches
+## Switches
 
 The first time you run the program, it’ll ask you to input an option:
 
