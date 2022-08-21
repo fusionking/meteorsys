@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-The Responsys Parser script helps a developer automate tasks related to Responsys emails. 
+Meteorsys is the ultimate solution for automating tasks related to Responsys emails. 
 
 The script provides 2 functionalities:
 
@@ -33,7 +33,7 @@ Let’s suppose you want to fetch all the modules which uses the keyword `SOMEVA
 
 You are good to go now! Just run the script:
 
-    python parse_responsys.py
+    python meteorsys.py
 
 ### Switches
 
