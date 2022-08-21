@@ -1,10 +1,10 @@
-##1. Introduction
+## 1. Introduction
 
 The Responsys Parser script helps a developer automate tasks related to Responsys emails. 
 
 The script provides 2 functionalities:
 
-###Parsing Content
+### Parsing Content
 
 The script helps a developer to parse the content of a Responsys email template. The script automatically parses:
 
@@ -14,14 +14,14 @@ The script helps a developer to parse the content of a Responsys email template.
 
 - Responsys tables used within the email template
 
-###Scan For a Keyword within a Folder
+### Scan For a Keyword within a Folder
 
 The script also allows the developer to scan the contents of a Responsys folder for a keyword. 
 
 Let’s suppose you want to fetch all the modules which uses the keyword `SOMEVARIABLE`. This option allows you to do that.
 
 
-##2. How to Use It
+## 2. How to Use It
 
 1. Provide your Responsys username and password in the `.env` file provided.
 
@@ -35,7 +35,7 @@ You are good to go now! Just run the script:
 
     python parse_responsys.py
 
-###Switches
+### Switches
 
 The first time you run the program, it’ll ask you to input an option:
 
