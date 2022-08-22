@@ -47,11 +47,11 @@ Enter `p` to parse for queries or `s` to scan a keyword within a folder.
 
 Then, the program asks you to input folder names where the modules to be parsed are located:
 
-`Enter the input module names (,): modules`
+`Enter the folder name: modules`
 
 Then, the program asks you to input the modules names to be parsed:
 
-`Enter the folder name: generic`
+`Enter the input module names (,): generic`
 
 Then, the user has to provide some configurations.
 - The first configuration allows the user to find and print table schemes. Type in `y` to confirm.
